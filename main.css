@@ -120,18 +120,12 @@ ul {
 
 @media screen and (max-width: 768px) {
    .banner__media {
-      background-position: -32rem center;
+      min-height: 20rem;
    }
 }
 
 @media screen and (max-width: 576px) {
    .banner__media {
-      background-position: -36rem center;
-   }
-}
-
-@media screen and (max-width: 480px) {
-   .banner__media {
-      background-position: -42.5rem center;
+      min-height: 14rem;
    }
 }
